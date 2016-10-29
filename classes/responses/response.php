@@ -1,6 +1,8 @@
 <?php
-
-namespace josh\api\responses;
+/**
+ * Basic repsonse
+ */
+namespace CalderaWP\API\responses;
 
 class response  extends \WP_REST_Response{
 	

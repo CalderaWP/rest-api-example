@@ -1,17 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: josh
- * Date: 7/9/16
- * Time: 6:37 PM
+ * Base class for route groups that follow CRUD pattern
  */
+namespace CalderaWP\API\routes;
 
-namespace josh\api\routes;
 
-
-use josh\api\error\error;
-use josh\api\error\response;
-use josh\api\interfaces\route;
+use CalderaWP\API\responses\error;
+use CalderaWP\API\responses\response;
+use CalderaWP\API\interfaces\route;
 
 abstract class crud implements route {
 

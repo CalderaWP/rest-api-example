@@ -1,6 +1,6 @@
 <?php
 
-namespace josh\api\interfaces;
+namespace CalderaWP\API\interfaces;
 
 
 interface route {

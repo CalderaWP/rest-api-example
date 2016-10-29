@@ -1,7 +1,7 @@
 <?php
 
 
-namespace josh\api\routes;
+namespace CalderaWP\API\routes;
 
 
 abstract class public_route extends crud {

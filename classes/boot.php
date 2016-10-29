@@ -1,10 +1,12 @@
 <?php
 
+/**
+ * Use this class to make a collection of routes
+ */
+namespace CalderaWP\API;
 
-namespace josh\api;
 
-
-use josh\api\interfaces\route;
+use CalderaWP\API\interfaces\route;
 
 class boot {
 
